@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+    int arr1[6]={8,10,11,12,50,99};
+    int arr2[6]={9,6,5,3,4,8};
+    int arr3[12];
+    int i,j;
+    for(i=0;i<6;i++){
+    arr3[j++]=arr1[i];
+    }
+ for(i=0;i<6;i++){
+    arr3[j++]=arr2[i];
+    } 
+    for(int i=0;i<12;i++)
+    {
+        printf("%d",arr3[i]);
+    }
+
+return 0;
+}

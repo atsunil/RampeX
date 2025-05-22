@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+    int arr[]={8,10,11,12,50,99};
+    int a,found;
+printf("enter the number :");
+
+    scanf("%d",&a);
+    for (int i = 0; i < 6; i++){
+        if (arr[i] == a){
+           found=1;
+           // printf("\nthe value is in array %d",a);
+               break;
+}
+        
+        }
+if(found==1){
+ printf("\nthe value is in array %d",a);}
+else
+{
+
+    printf("\nthe value not in array : %d",a);
+}
+
+return 0;
+}
