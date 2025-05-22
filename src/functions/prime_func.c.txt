@@ -1,0 +1,108 @@
+#include <stdio.h>
+int prime(int a)
+{int num=0,n,prime=1;
+if(n<2)
+{
+    return 0;
+}
+  for(int i=2;i*i<=num;i++)
+  {
+      if(num%i==0)
+      return 0;
+  }
+
+    return 1;
+}
+int main() {
+   int a;
+   int isprime;
+   printf("enter the number:");
+   scanf("%d",&a);
+
+   int b=prime(a);
+  
+  if(b==1)
+  {
+      printf("the number is prime number %d",a);
+  }
+    
+      else
+      {
+          printf("the number is not  prime number %d",a);
+      }
+       return 0;
+  }
+
+   
+#include <stdio.h>
+int prime(int a)
+{int num=0,n,prime=1;
+if(n<2)
+{
+    return 0;
+}
+  for(int i=2;i*i<=num;i++)
+  {
+      if(num%i==0)
+      return 0;
+  }
+
+    return 1;
+}
+int main() {
+   int a;
+   int isprime;
+   printf("enter the number:");
+   scanf("%d",&a);
+
+   int b=prime(a);
+  
+  if(b==1)
+  {
+      printf("the number is prime number %d",a);
+  }
+    
+      else
+      {
+          printf("the number is not  prime number %d",a);
+      }
+       return 0;
+  }
+
+   
+#include <stdio.h>
+int prime(int a)
+{int num=0,n,prime=1;
+if(n<2)
+{
+    return 0;
+}
+  for(int i=2;i*i<=num;i++)
+  {
+      if(num%i==0)
+      return 0;
+  }
+
+    return 1;
+}
+int main() {
+   int a;
+   int isprime;
+   printf("enter the number:");
+   scanf("%d",&a);
+
+   int b=prime(a);
+  
+  if(b==1)
+  {
+      printf("the number is prime number %d",a);
+  }
+    
+      else
+      {
+          printf("the number is not  prime number %d",a);
+      }
+       return 0;
+  }
+
+   

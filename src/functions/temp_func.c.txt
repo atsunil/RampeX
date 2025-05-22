@@ -1,0 +1,18 @@
+#include <stdio.h>
+int temp(int farn)
+{
+    int cel;
+    cel = (farn- 32) * 5/9;
+    
+    return cel;
+}
+int main() {
+   int farn;
+   int cel;
+   printf("enter the fahrenheit:");
+   scanf("%d",&farn);
+   int a=temp(farn);
+   printf("%d",a);
+   
+    return 0;
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+void  greet(char a[],char b[])
+{
+   printf("hi %s welcome to our company",a);
+   printf("in this company,you has appointed as %s",b);
+}
+    int main() 
+    {
+        char a[100],b[100];
+    printf("enter the name:");
+    scanf("%s",&a);
+      printf("enter the role:");
+    scanf("%s",&b);
+    greet(a,b);
+     return 0;
+}
+   

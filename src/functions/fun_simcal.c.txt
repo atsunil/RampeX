@@ -1,0 +1,42 @@
+#include<stdio.h>
+int sunil(int x,int y)
+{
+   return x+y;
+ }
+ int marzook(int x,int y)
+{
+   return x-y;
+ }
+ int balaji(int x,int y)
+{
+   return x*y;
+ }
+ int manoj(int x,int y)
+{
+if(y==0)
+{
+    printf("0 is invalid ");
+}
+else
+{
+    return x/y;
+}
+ }
+int main()
+{
+    int x;int y;
+    printf("enter the x:");
+    scanf("%d",&x);
+    printf("enter the y:");
+    scanf("%d",&y);
+     
+    int sum = sunil(x, y);
+    printf("The sum of %d and %d is %d\n", x, y, sum);
+      int sub =marzook(x, y);
+    printf("The sub of %d and %d is %d\n", x, y, sub);
+  int mul = balaji(x, y);
+    printf("The multi of %d and %d is %d\n", x, y, mul);
+  int divi= manoj(x, y);
+    printf("The div of %d and %d is %d\n", x, y, divi);
+   return 0;
+}
